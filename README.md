@@ -1,1 +1,1 @@
-# genomics-helicobacter-pylori
+# Prokka: rapid prokaryotic genome annotation
