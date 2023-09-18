@@ -1,1 +1,1 @@
-# Prokka: rapid prokaryotic genome annotation
+# Bioinformatic tutorial for Helicobater pylori 
