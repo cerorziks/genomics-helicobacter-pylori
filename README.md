@@ -1,1 +1,1 @@
-# Bioinformatics tutorial for Helicobater pylori 
+# Bioinformatics Tutorial for Helicobater pylori 
