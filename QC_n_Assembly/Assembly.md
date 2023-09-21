@@ -1,4 +1,4 @@
-## Concantenate data
+## Concantenate Data
 cat *.fastq.gz > hp_trial.fastq.gz
 
 ## Trimming with porechop
