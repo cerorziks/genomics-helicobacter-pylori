@@ -1,3 +1,4 @@
+# Scripts for trimming and Assembly 
 ## Concantenate Data
 cat *.fastq.gz > hp_trial.fastq.gz
 
@@ -15,8 +16,8 @@ unicycler -1 short_reads_R1.fastq.gz -2 short_reads_R2.fastq.gz -l long_reads.fa
 ### For short reads
 unicycler -1 short_reads_R1.fastq.gz -2 short_reads_R2.fastq.gz -o output_dir
 
-## Canu 
+## 2. Canu 
 canu -p prefix -d output_directory genomeSize=1.6m -nanopore sample_id_trimmed.fastq.gz 
 
-## Flye
+## 3. Flye
 flye --nano-raw sample_id.fastq.gz --out-dir desired_folder_name --genome-size 1.6m
