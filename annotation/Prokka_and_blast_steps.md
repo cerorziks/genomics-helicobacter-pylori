@@ -4,9 +4,12 @@
 
 #### 1. Creating environment and install prokka 
 
+```{shell}
 conda create -n myprokka conda 
 activate myprokka #activate environment
 conda install -c bioconda prokka #install prokka
+```
+
 
 #### Run the script "prokka.sh" to annotate
 bash prokka.sh #to run prokka
