@@ -1,8 +1,7 @@
-# Concantenate data
-
+## Concantenate data
 cat *.fastq.gz > hp_trial.fastq.gz
 
-# Trimming with porechop
+## Trimming with porechop
 porechop -i hp_trial.fastq.gz -o hp_trial_trimmed.fastq.gz
 
 # Assemby of Nanopore/Pacbio reads
