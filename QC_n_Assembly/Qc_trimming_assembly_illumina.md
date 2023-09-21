@@ -1,4 +1,4 @@
-### Quality Check, Adapter & Barcode trimming and Genome assembly
+### Quality Check, Adapter & Barcode Trimming and Genome Assembly
 
 #### 1. FastQC: To check the quality of the read
 Create environment and install FastQC
