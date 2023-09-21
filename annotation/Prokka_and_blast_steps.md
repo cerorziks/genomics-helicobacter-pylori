@@ -15,7 +15,7 @@ bash prokka.sh #to run prokka
 ```
 
 #### 3. Copy the fasta files into the directory with prokka.sh and copy.sh bash prokka.sh
-### 4. After completion of prokka, create a new folder and name it "ffn" bash copy.sh
+#### 4. After completion of prokka, create a new folder and name it "ffn" bash copy.sh
 
 ### BLAST STEPS
 #### 1. Install BLAST and combine ffn files from prokka result
