@@ -26,15 +26,6 @@ trimmomatic PE -phred33 Sample_ID_R1_001.fastq.gz Sample_ID_R2_001.fastq.gz Samp
 
 Paired reads that pass the quality thresholds will be written to `_paired` files, while unpaired reads will be written to `_unpaired` files. 
 
-#### 3. Assembly
-Package/Software: SPAdes
-
-Installation
-```{shell}
-conda create -n spades
-conda install -c bioconda spades
-```
-
 ​A complete command line for using Trimmomatic typically looks something like this
 
 ```{shell}
@@ -59,6 +50,14 @@ The numbers `2:30:10` denote the parameters for the trimming: seed mismatches, p
 - **Palindrome Clip Threshold**: - This threshold is used for "palindrome" adapter removal, which means removing sequences where the read is present in its reverse complement form. - For example, if you have the adapter sequence "AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC" and its reverse complement "GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT", and you set this threshold to 30, it means that if the first 30 bases of a read match either the adapter sequence or its reverse complement, they will be removed. 
 - **Simple Clip Threshold**: - This is used for "simple" adapter removal, which means removing sequences where the read is present in its original form. - It functions similarly to the palindrome clip threshold, but applies to cases where the adapter is not a palindrome. In summary, these parameters help Trimmomatic identify adapter sequences in your reads. The "Seed Mismatches" parameter sets the initial matching criteria, while the "Palindrome Clip Threshold" and "Simple Clip Threshold" determine how many bases in a read need to match the adapter sequence before trimming occurs. These parameters are crucial for effectively removing adapter contamination from sequencing data.
 
+#### 3. Assembly
+Package/Software: SPAdes
+
+Installation
+```{shell}
+conda create -n spades
+conda install -c bioconda spades
+```
 
 To assemble a single sample
 
